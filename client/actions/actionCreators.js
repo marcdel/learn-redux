@@ -1,3 +1,4 @@
+// Fire in console with $r.store.dispatch({type: 'INCREMENT_LIKES', index: 0})
 export function increment(index){
   return {
     type: 'INCREMENT_LIKES',
