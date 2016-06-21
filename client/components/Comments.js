@@ -1,7 +1,5 @@
 import React from 'react';
-import autobind from 'autobind-decorator';
 
-@autobind
 export default class Comments extends React.Component {
   renderComment(comment, index){
     return (
